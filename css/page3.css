@@ -1,0 +1,127 @@
+.tnvrmain {
+    margin: 0px auto ;
+    padding: 120px 0px 50px 0px !important;
+}
+
+
+.tnvrmain-1 {
+    background: #57BAF6;
+    padding: 150px 0px;
+}
+
+.tnvrmain-2 {
+    background: #99CDFF;
+    padding: 150px 0px;
+}
+.tnvrmain-3 {
+    background: #57BAF6;
+    padding: 150px 0px;
+}
+.tnvrmain-4 {
+    background: #99CDFF;
+    padding: 150px 0px;
+}
+
+
+.tnvrimg img{
+    width: 70vw;
+    padding: 0px 150px;
+}
+
+.petQ {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.petQ img {
+    height: 150px;
+    width: 150px;
+    margin: 0px auto;
+    text-align: center;
+}
+.petQ p {
+    color: #000;
+    font-size: 2em;
+    font-family:微軟正黑體 ;
+    font-weight:bold;
+    text-align: center;
+}
+     
+.tnvrtext {
+    padding: 50px 150px 0px 150px;
+    margin: 0px auto;
+    font-size: 30px;
+    font-family: 微軟正黑體;
+    text-align: justify;
+
+}
+
+
+
+
+
+.catQright {
+    position: absolute;
+    bottom: -50px;
+    right: 12px;
+    z-index: 5
+}
+
+.catQleft {
+    position: absolute;
+    bottom: -50px;
+    left: 12px;
+    z-index: 5
+}
+
+.container-fluid{
+    padding: 0px
+}
+.main-1{
+background: #429BC9
+
+}
+.main-2{
+
+}
+.main-3{
+    background: #429BC9
+}
+
+.main-1 h1{
+        text-align: center;
+padding-top: 50px;
+font-weight: bold;
+color:white;
+}
+.main-1 p{
+    padding: 50px;
+        color: white;
+}
+               
+
+.tnvrpimg{
+            text-align: center;
+
+}
+.a1225{
+         text-indent: 2em;
+         padding: 10px;
+        margin: 0px;
+}
+.tnvrtext span{
+    font-weight: bold
+}
+.main-3 h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.main-3 p{
+    padding: 0 100px;
+             text-indent: 2em;
+             line-height: 50px;
+
+}
+.main p span{
+    font-weight: bold
+}
