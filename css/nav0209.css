@@ -1,8 +1,45 @@
-
+ a {
+            color: #000;
+            text-decoration: none;
+        }
         
-         .lia img {
+        a:visited {
+            color: white;
+        }
+        
+        .lia a:hover {
+            text-decoration: none;
+            font-weight: bold;
+            color: #AB8868;
+          border-bottom:5px solid #AB8868;
+           padding: 10px 30px;
+
+            transition: all 0.6s;
+
+        }
+        
+        .lia img {
             width: 100%;
             height: 100%;
+        }
+
+        .lia span{border-bottom:0px solid #AB8868;
+            
+        }
+        
+        .lia {           
+           padding: 10px 0px;
+
+
+            float: left;
+            width: 11%;
+            list-style: none;
+            color: #000;
+            font-family: 微軟正黑體;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 90px;
+            text-align: center;
         }
         
         .lib {
@@ -27,7 +64,7 @@
         }
         
         .nav {
-            background: rgba(151, 214, 252, 0.8);
+            background: rgba(151, 214, 252, 0.7);
             width: 100%;
             height: 150px;
             padding: 0px;
@@ -42,23 +79,25 @@
  .top {
             position: fixed;
             top: 70%;
-            right: 2.5%;
-            opacity: 0.6;
+            right: 0%;
+            opacity: 0.8;
             animation-name: atop;
             animation-duration: 3s;
+        }
+        .top img{
+            width: 180px;
+            height: 180px;
         }
         
         @keyframes atop {
             from {
                 top: 0%;
-                transform: rotate(0deg);
             }
             to {
                 top: 70%;
-                transform: rotate(360deg);
             }
         }
         
         .top:hover {
-            opacity: 0.9;
+            opacity: 1;
         }
