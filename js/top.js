@@ -21,16 +21,14 @@ $(function() {
     });
 });
 $(window).scroll(function() {
-        if ($(this).scrollTop() > 3250 ) {
-            $('#handna').fadeOut("fast");
-        } else if ($(this).scrollTop() > 650 ){
-            $('#handna').stop().fadeIn("fast");
-        }
-        else  {
-            $('#handna').stop().fadeOut("fast");
-        }
-    });
-
+    if ($(this).scrollTop() > 3250) {
+        $('#handna').fadeOut("fast");
+    } else if ($(this).scrollTop() > 650) {
+        $('#handna').stop().fadeIn("fast");
+    } else {
+        $('#handna').stop().fadeOut("fast");
+    }
+});
 
 $(window).scroll(function() {
     if ($(this).scrollTop() > 655) {
@@ -59,7 +57,7 @@ $(function() {
     //control display of goTop button and motion
     $("#go3").click(function() {
         jQuery("html,body").animate({
-            scrollTop:2600
+            scrollTop: 2600
         }, 800);
     });
 }, )
@@ -72,55 +70,164 @@ $(function() {
     });
 }, )
 
-
-
 //以下領養頁
 $(function() {
-            //control display of goTop button and motion
-            $("#s1").click(function() {
-                jQuery("html,body").animate({
-                    scrollTop: 850
-                }, 800);
-            });
-        }, )
-        $(function() {
-            //control display of goTop button and motion
-            $("#s2").click(function() {
-                jQuery("html,body").animate({
-                    scrollTop: 1300
-                }, 800);
-            });
-        }, )
-        $(function() {
-            //control display of goTop button and motion
-            $("#s3").click(function() {
-                jQuery("html,body").animate({
-                    scrollTop: 1750
-                }, 800);
-            });
-        }, )
-        $(function() {
-            //control display of goTop button and motion
-            $("#s4").click(function() {
-                jQuery("html,body").animate({
-                    scrollTop: 2200
-                }, 800);
-            });
-        }, )
-        $(function() {
-            //control display of goTop button and motion
-            $("#s5").click(function() {
-                jQuery("html,body").animate({
-                    scrollTop: 2650
-                }, 800);
-            });
-        }, )
-        $(function() {
-            //control display of goTop button and motion
-            $("#s6").click(function() {
-                jQuery("html,body").animate({
-                    scrollTop: 3100
-                }, 800);
-            });
-        }, )
-      
+    //control display of goTop button and motion
+    $("#s1").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 850
+        }, 800);
+    });
+}, )
+$(function() {
+    //control display of goTop button and motion
+    $("#s2").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 1300
+        }, 800);
+    });
+}, )
+$(function() {
+    //control display of goTop button and motion
+    $("#s3").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 1750
+        }, 800);
+    });
+}, )
+$(function() {
+    //control display of goTop button and motion
+    $("#s4").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 2200
+        }, 800);
+    });
+}, )
+$(function() {
+    //control display of goTop button and motion
+    $("#s5").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 2650
+        }, 800);
+    });
+}, )
+$(function() {
+    //control display of goTop button and motion
+    $("#s6").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 3100
+        }, 800);
+    });
+}, )
+
+//page1
+$(function() {
+    //control display of goTop button and motion
+    $("#p1g1").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 100
+        }, 800);
+    });
+}, )
+$(function() {
+    //control display of goTop button and motion
+    $("#p1g2").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 900
+        }, 800);
+    });
+}, )
+$(function() {
+    //control display of goTop button and motion
+    $("#p1g3").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 1400
+        }, 800);
+    });
+}, )
+$(function() {
+    //control display of goTop button and motion
+    $("#p1g4").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 1800
+        }, 800);
+    });
+}, )
+
+//page2
+$(function() {
+    //control display of goTop button and motion
+    $("#p2g1").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 80
+        }, 800);
+    });
+}, )
+$(function() {
+    //control display of goTop button and motion
+    $("#p2g2").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 2150
+        }, 800);
+    });
+}, )
+
+$(function() {
+    //control display of goTop button and motion
+    $("#p2g3").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 3240
+        }, 800);
+    });
+}, )
+
+$(function() {
+        //control display of goTop button and motion
+        $("#p2g4").click(function() {
+            jQuery("html,body").animate({
+                scrollTop: 4500
+            }, 800);
+        });
+    }, )
+    //page3
+$(function() {
+    //control display of goTop button and motion
+    $("#p3g1").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 50
+        }, 800);
+    });
+}, )
+$(function() {
+        //control display of goTop button and motion
+        $("#p3g2").click(function() {
+            jQuery("html,body").animate({
+                scrollTop: 4550
+            }, 800);
+        });
+    }, )
+    //page4
+$(function() {
+    //control display of goTop button and motion
+    $("#p4g1").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 50
+        }, 800);
+    });
+}, )
+$(function() {
+    //control display of goTop button and motion
+    $("#p4g2").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 740
+        }, 800);
+    });
+}, )
+$(function() {
+    //control display of goTop button and motion
+    $("#p4g3").click(function() {
+        jQuery("html,body").animate({
+            scrollTop: 4100
+        }, 800);
+    });
+}, )

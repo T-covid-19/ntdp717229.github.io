@@ -1,64 +1,93 @@
-
-        
-         .lia img {
-            width: 100%;
-            height: 100%;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: white;
+    }
+    
+    a:hover {
+        transition: all 0.6s;
+        color: #8593DB;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .lia {
+        float: left;
+        width: 11%;
+        list-style: none;
+        color: #000;
+        font-family: 微軟正黑體;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 90px;
+        text-align: center;
+    }
+    
+    .lia span {
+        background: #8593DB;
+        border-radius: 10%;
+        padding: 10px 30px;
+        color: white;
+    }
+    
+    .lia img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .lib {
+        float: left;
+        list-style: none;
+        color: #000;
+        font-family: 微軟正黑體;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .ula {
+        padding-left: 0px;
+    }
+    
+    .ulb {
+        padding-left: 0px;
+        height: 50px;
+        width: 550px;
+    }
+    
+    .nav {
+        background: rgba(151, 214, 252, 0.8);
+        width: 100%;
+        height: 150px;
+        padding: 0px;
+        margin: 0px;
+        position: fixed;
+        top: 0px;
+        z-index: 99;
+    }
+    
+    .top {
+        position: fixed;
+        top: 70%;
+        right: 0.5%;
+        opacity: 0.6;
+        animation-name: atop;
+        animation-duration: 3s;
+    }
+    
+    @keyframes atop {
+        from {
+            top: 0%;
         }
-        
-        .lib {
-            float: left;
-            list-style: none;
-            color: #000;
-            font-family: 微軟正黑體;
-            font-weight: bold;
-            font-size: 20px;
-            line-height: 30px;
-            text-align: center;
-        }
-        
-        .ula {
-            padding-left: 0px;
-        }
-        
-        .ulb {
-            padding-left: 0px;
-            height: 50px;
-            width: 500px;
-        }
-        
-        .nav {
-            background: rgba(151, 214, 252, 0.8);
-            width: 100%;
-            height: 150px;
-            padding: 0px;
-            margin: 0px;
-            position: fixed;
-            top: 0px;
-            z-index: 99;
-        }
-
-
-
- .top {
-            position: fixed;
+        to {
             top: 70%;
-            right: 2.5%;
-            opacity: 0.6;
-            animation-name: atop;
-            animation-duration: 3s;
         }
-        
-        @keyframes atop {
-            from {
-                top: 0%;
-                transform: rotate(0deg);
-            }
-            to {
-                top: 70%;
-                transform: rotate(360deg);
-            }
-        }
-        
-        .top:hover {
-            opacity: 0.9;
-        }
+    }
+    
+    .top:hover {
+        opacity: 0.9;
+    }
