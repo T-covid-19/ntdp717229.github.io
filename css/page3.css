@@ -1,31 +1,27 @@
 .tnvrmain {
-    margin: 0px auto ;
-    padding: 120px 0px 50px 0px !important;
+    margin: 0px auto;
+    padding: 10% 0px !important;
 }
-
 
 .tnvrmain-1 {
     background: #57BAF6;
-    padding: 150px 0px;
 }
 
 .tnvrmain-2 {
     background: #99CDFF;
-    padding: 150px 0px;
 }
+
 .tnvrmain-3 {
     background: #57BAF6;
-    padding: 150px 0px;
 }
+
 .tnvrmain-4 {
     background: #99CDFF;
-    padding: 150px 0px;
 }
 
-
-.tnvrimg img{
+.tnvrimg img {
     width: 70vw;
-    padding: 0px 150px;
+    padding: 0px 5%;
 }
 
 .petQ {
@@ -34,31 +30,28 @@
 }
 
 .petQ img {
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 180px;
     margin: 0px auto;
     text-align: center;
 }
+
 .petQ p {
     color: #000;
-    font-size: 2em;
-    font-family:微軟正黑體 ;
-    font-weight:bold;
+    font-size: 3em;
+    font-family: 微軟正黑體;
+    font-weight: bold;
     text-align: center;
 }
-     
+
 .tnvrtext {
-    padding: 50px 150px 0px 150px;
+    padding: 5%;
     margin: 0px auto;
-    font-size: 30px;
-    font-family: 微軟正黑體;
+    font-size: 2em;
+    font-family:微軟正黑體;
     text-align: justify;
-
+    line-height: 2em;
 }
-
-
-
-
 
 .catQright {
     position: absolute;
@@ -74,54 +67,62 @@
     z-index: 5
 }
 
-.container-fluid{
+.container-fluid {
     padding: 0px
 }
-.main-1{
-background: #429BC9
 
-}
-.main-2{
-
-}
-.main-3{
+.main-1 {
     background: #429BC9
 }
 
-.main-1 h1{
-        text-align: center;
-padding-top: 50px;
-font-weight: bold;
-color:white;
-}
-.main-1 p{
-    padding: 50px;
-        color: white;
-}
-               
 
-.tnvrpimg{
-            text-align: center;
+
+.main-3 {
+    background: #429BC9;
+    padding: 5%;
+}
+
+.main-1 h1 {
+    text-align: center;
+    padding-top: 5%;
+    font-weight: bold;
+    color: white;    font-size: 4em;
 
 }
-.a1225{
-         text-indent: 2em;
-         padding: 10px;
-        margin: 0px;
+
+.main-1 p {
+    padding: 5%;
+    color: white;
 }
-.tnvrtext span{
+
+.tnvrpimg {
+    text-align: center;
+}
+
+.a1225 {
+    text-indent: 2em;
+    padding: 2%;
+    margin: 0px;
+}
+
+.tnvrtext span {
     font-weight: bold
 }
-.main-3 h1{
-    text-align: center;
-    padding-top: 50px;
-}
-.main-3 p{
-    padding: 0 100px;
-             text-indent: 2em;
-             line-height: 50px;
 
+.main-3 h1 {    font-size: 4em;
+
+    text-align: center;
+    padding-top: 5%;
 }
-.main p span{
+
+.main-3 p {    
+    font-family:微軟正黑體;
+
+    padding: 1% 0%;
+    text-indent: 2em;
+    line-height: 50px;
+}
+
+.main p span {
     font-weight: bold
 }

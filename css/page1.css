@@ -14,25 +14,19 @@
  .backgroundcolor {
      height: 80%;
      background: rgba(197, 208, 232, 0.8);
-     padding: 30px;
+     padding: 5%;
  }
  
  .backgroundcolor .text {
-     padding: 60px;
+     padding: 5%;
      text-indent: 2em;
  }
  
- .backgroundcolor p {
-     padding: 60px 60px 20px 60px;
-     font-size: 30px;
-     font-family: 微軟正黑體;
-     font-weight: 300;
-     text-align: justify;
- }
+
  
  .backgroundcolor h1 {
-     padding: 40px;
-     font-size: 50px;
+     padding: 5%;
+     font-size: 3em;
      font-family: 微軟正黑體;
      font-weight: 1000;
      writing-mode: vertical-lr;
@@ -53,9 +47,6 @@
  }
  
  p img {
-     transform: translateX(10%);
+     transform: translateX(0%);
  }
  
- .b1225 {
-     padding-top: 50px;
- }

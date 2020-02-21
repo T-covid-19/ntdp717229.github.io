@@ -1,90 +1,13 @@
 
-        @media screen and (max-width: 1200px) {
-            /*md-xl*/
-          .content{
-            width: 800px !important;
-            height: 100%;
-            margin: 180px  10% !important;
-            background-color: #FFDDAA;
-            box-shadow:3px 3px 5px 6px #666  ;
-            
-        }
-        .dogtitle{
-            font-size: 40px;
-
-        }
-        
-        .main h1 {
-
-           
-            font-family: "微軟正黑體";
-         font-size: 30px;
-                       margin: 0px auto;
-
-            padding: 50px 20px 50px 50px;
-            font-weight: bold;
-
-        }
-        
-        .main h2 {
-            font-size: 28px;
-            padding: 15px 0px 0px 20px;
-            font-family: "微軟正黑體";
-            font-weight: bold;
-            margin: 0px auto;
-            color: #c41818;
-        }
-        
-        .main p {
-            font-size: 23px;
-            color: #000;
-            font-family: "微軟正黑體";
-         
-           
-        }
- 
-        
-        .main .a2 {
-          display:inline-block;
-            font-family: "微軟正黑體";
-            padding-left: 60px;
-            height: 500px;
-        }
+        @media screen and (max-width: 1800px) {
+       
         
         .main {
-            margin: 40px 0px;
-        }
-        
-        .main .text p {
-            display:inline-block;
-            width: 570px;
-            padding-left: 50px;
-            font-size: 25px;
-            line-height: 50px;
-            margin: 0px auto;
-            height: 500px;
-        }
-        
-        .main-2 {
-            padding-left: 40px;
-            padding-right: 40px;
-        }
-        
-        .main-3 {
-            padding-left: 40px;
-                        padding-right: 40px;
+    margin:18% 5% 0% 5%;
 
-        }
-        
-        td {
-            height: 60px;
-            width: 60px;
-            padding: 20px;
-        }
-                table{
-                width:600px !important; 
-                }
 
+}
+  
         
     }
         
