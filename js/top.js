@@ -21,9 +21,9 @@ $(function() {
     });
 });
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 3250) {
+    if ($(this).scrollTop() > 4100) {
         $('#handna').fadeOut("fast");
-    } else if ($(this).scrollTop() > 650) {
+    } else if ($(this).scrollTop() > 700) {
         $('#handna').stop().fadeIn("fast");
     } else {
         $('#handna').stop().fadeOut("fast");
@@ -75,7 +75,7 @@ $(function() {
     //control display of goTop button and motion
     $("#s1").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 850
+            scrollTop: 1000
         }, 800);
     });
 }, )
@@ -83,7 +83,7 @@ $(function() {
     //control display of goTop button and motion
     $("#s2").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 1300
+            scrollTop: 1500
         }, 800);
     });
 }, )
@@ -91,7 +91,7 @@ $(function() {
     //control display of goTop button and motion
     $("#s3").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 1750
+            scrollTop: 2050
         }, 800);
     });
 }, )
@@ -99,7 +99,7 @@ $(function() {
     //control display of goTop button and motion
     $("#s4").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 2200
+            scrollTop: 2550
         }, 800);
     });
 }, )
@@ -107,7 +107,7 @@ $(function() {
     //control display of goTop button and motion
     $("#s5").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 2650
+            scrollTop: 3100
         }, 800);
     });
 }, )
@@ -115,7 +115,7 @@ $(function() {
     //control display of goTop button and motion
     $("#s6").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 3100
+            scrollTop: 3650
         }, 800);
     });
 }, )
@@ -133,7 +133,7 @@ $(function() {
     //control display of goTop button and motion
     $("#p1g2").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 900
+            scrollTop: 1200
         }, 800);
     });
 }, )
@@ -141,7 +141,7 @@ $(function() {
     //control display of goTop button and motion
     $("#p1g3").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 1400
+            scrollTop: 1800
         }, 800);
     });
 }, )
@@ -149,7 +149,7 @@ $(function() {
     //control display of goTop button and motion
     $("#p1g4").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 1800
+            scrollTop: 2100
         }, 800);
     });
 }, )
@@ -167,7 +167,7 @@ $(function() {
     //control display of goTop button and motion
     $("#p2g2").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 2150
+            scrollTop: 2340
         }, 800);
     });
 }, )
@@ -176,7 +176,7 @@ $(function() {
     //control display of goTop button and motion
     $("#p2g3").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 3240
+            scrollTop: 3515
         }, 800);
     });
 }, )
@@ -185,7 +185,7 @@ $(function() {
         //control display of goTop button and motion
         $("#p2g4").click(function() {
             jQuery("html,body").animate({
-                scrollTop: 4500
+                scrollTop: 5300
             }, 800);
         });
     }, )
@@ -202,7 +202,7 @@ $(function() {
         //control display of goTop button and motion
         $("#p3g2").click(function() {
             jQuery("html,body").animate({
-                scrollTop: 4550
+                scrollTop: 6650
             }, 800);
         });
     }, )
@@ -219,7 +219,7 @@ $(function() {
     //control display of goTop button and motion
     $("#p4g2").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 740
+            scrollTop: 750
         }, 800);
     });
 }, )
@@ -227,7 +227,7 @@ $(function() {
     //control display of goTop button and motion
     $("#p4g3").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 4100
+            scrollTop: 4750
         }, 800);
     });
 }, )
