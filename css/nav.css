@@ -79,6 +79,10 @@
         animation-name: atop;
         animation-duration: 3s;
     }
+          .top img{
+    width: 100px;
+    height: 100px;
+}
     
     @keyframes atop {
         from {

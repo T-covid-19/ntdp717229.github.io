@@ -18,23 +18,22 @@
 
      float: left;
 padding-left: 5%;
-     position: relative;
-        padding-top: 15%;
- }
- .aaa .col-9{
-     padding-left: 0px;
- }
+ top:50%;
+    transform:translateY(-50%); }
+
  .photo1 {
      float: right;
-     position: relative;
-        padding-top: 15%;
+
+    top:50%;
+    transform:translateY(-50%);
+right: 3%;
  }
  
  .text {
      float: right;
      color: #000;
      position: relative;
-     padding:10%;
+     padding:8%;
      text-align: justify;
      font-size: 1.1em;
  }
@@ -44,7 +43,7 @@ padding-left: 5%;
      font-size: 1.1em;
      color: #000;
      position: relative;
-        padding:10%;
+        padding:8%;
         height: 100%;
 
      text-align: justify;
@@ -75,10 +74,7 @@ padding-left: 5%;
  
 
  
- .col-12 {
-     padding: 0px;
- }
- 
+
  h2 {
      text-align: center;
      color: #000;
@@ -87,6 +83,6 @@ padding-left: 5%;
  }
  
  .main-2 {
-     margin: 20px 40px;
+     margin: 0% 2%;
      padding-bottom: 30px;
  }
