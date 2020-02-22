@@ -91,6 +91,7 @@
 }
 
 .main-1 p {
+    font-size: 2em;
     padding: 5%;
     color: white;
 }
@@ -114,9 +115,14 @@
     text-align: center;
     padding-top: 5%;
 }
-
+     .灰字 {
+         text-align: center;
+         font-size: 0.5em;
+         color: #2E2C2C
+     }
 .main-3 p {    
     font-family:微軟正黑體;
+    font-size: 2em;
 
     padding: 1% 0%;
     text-indent: 2em;

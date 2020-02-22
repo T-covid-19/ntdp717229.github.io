@@ -22,7 +22,9 @@
      text-indent: 2em;
  }
  
-
+p{
+     font-size: 2em;
+}
  
  .backgroundcolor h1 {
      padding: 5%;
