@@ -60,9 +60,10 @@
         width: 50vw ;
     }
 .nav img{
- top:50%;
-    transform:translateY(-50%);
-        position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px
 
 }
 
