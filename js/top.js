@@ -49,7 +49,7 @@ $(function() {
     //control display of goTop button and motion
     $("#go2").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 800
+            scrollTop: 850
         }, 800);
     });
 }, )
@@ -57,7 +57,7 @@ $(function() {
     //control display of goTop button and motion
     $("#go3").click(function() {
         jQuery("html,body").animate({
-            scrollTop: 2700
+            scrollTop: 2750
         }, 800);
     });
 }, )
@@ -65,7 +65,7 @@ $(function() {
     //control display of goTop button and motion
     $("#go4").click(function() {
         jQuery("html,body").animate({
-            scrollTop:5000
+            scrollTop:5050
         }, 800);
     });
 }, )
