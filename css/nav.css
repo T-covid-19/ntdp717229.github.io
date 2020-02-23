@@ -104,3 +104,22 @@
     .top:hover {
         opacity: 0.9;
     }
+@media screen and (max-width: 1200px) {
+        .lia {
+
+    
+        font-size: 1.3em;
+        line-height: 3em;
+        text-align: center;
+    }
+
+  
+    
+    .lib {
+     
+        font-size: 0.7em !important;
+        line-height: 1em;
+        text-align: center;
+    }
+    
+}
