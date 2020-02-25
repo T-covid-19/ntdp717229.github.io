@@ -65,7 +65,7 @@ $(function() {
     //control display of goTop button and motion
     $("#go4").click(function() {
         jQuery("html,body").animate({
-            scrollTop:5050
+            scrollTop: 5050
         }, 800);
     });
 }, )

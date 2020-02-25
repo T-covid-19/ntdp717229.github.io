@@ -1,13 +1,13 @@
-    a {
+    nav a {
         color: white;
         text-decoration: none;
     }
     
-    a:visited {
+   nav a:visited {
         color: white;
     }
     
-    a:hover {
+    nav a:hover {
         transition: all 0.6s;
         color: #8593DB;
         text-decoration: none;
@@ -15,7 +15,6 @@
     }
     
     .lia {
-
         float: left;
         width: 11%;
         list-style: none;
@@ -30,7 +29,6 @@
     .lia span {
         background: #8593DB;
         border-radius: 10%;
-        padding: 2% 5%;
         color: white;
     }
     
@@ -57,19 +55,18 @@
     .ulb {
         padding-left: 0%;
         height: 100%;
-        width: 50vw ;
+        width: 50vw;
     }
-.nav img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 120px
-
-}
-
+    
+    .nav img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 120px
+    }
     
     .nav {
-         padding: 0% 2%;
+        padding: 0% 2%;
         background: rgba(151, 214, 252, 0.8);
         width: 100%;
         height: 120px;
@@ -87,10 +84,11 @@
         animation-name: atop;
         animation-duration: 3s;
     }
-          .top img{
-    width: 100px;
-    height: 100px;
-}
+    
+    .top img {
+        width: 100px;
+        height: 100px;
+    }
     
     @keyframes atop {
         from {
@@ -101,25 +99,20 @@
         }
     }
     
+    
     .top:hover {
         opacity: 0.9;
     }
-@media screen and (max-width: 1200px) {
+    
+    @media screen and (max-width: 1200px) {
         .lia {
-
-    
-        font-size: 1.3em;
-        line-height: 3em;
-        text-align: center;
+            font-size: 1.3em;
+            line-height: 3em;
+            text-align: center;
+        }
+        .lib {
+            font-size: 0.7em !important;
+            line-height: 1em;
+            text-align: center;
+        }
     }
-
-  
-    
-    .lib {
-     
-        font-size: 0.7em !important;
-        line-height: 1em;
-        text-align: center;
-    }
-    
-}

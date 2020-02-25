@@ -22,9 +22,9 @@
      text-indent: 2em;
  }
  
-p{
+ p {
      font-size: 2em;
-}
+ }
  
  .backgroundcolor h1 {
      padding: 5%;
@@ -51,4 +51,3 @@ p{
  p img {
      transform: translateX(0%);
  }
- 

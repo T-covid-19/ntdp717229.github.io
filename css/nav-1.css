@@ -87,10 +87,11 @@ nav {
     animation-duration: 3s;
 }
 
-      .top img{
+.top img {
     width: 100px;
     height: 100px;
 }
+
 @keyframes atop {
     from {
         top: 0%;

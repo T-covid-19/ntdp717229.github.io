@@ -1,9 +1,8 @@
 body {
     overflow-x: hidden;
     background: #DDE6EC;
-    font-family:微軟正黑體!important;
+    font-family: 微軟正黑體!important;
 }
-
 
 .主圖框 {
     position: relative;
@@ -29,10 +28,6 @@ body {
     background: #ECCF90;
 }
 
-
-
-
-
 footer {
     background: #8da7e0;
     width: 100%;
@@ -48,7 +43,5 @@ footer {
 }
 
 .main {
-    margin:10% 5% 0% 5%;
-
-
+    margin: 10% 5% 0% 5%;
 }
