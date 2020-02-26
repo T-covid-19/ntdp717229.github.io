@@ -35,4 +35,18 @@
     .handnav {
         display: none !important;
     }
+    body{
+        font-size: 0.7em !important;
+    }
+    nav{
+        height: 60px !important;
+    }
+    nav img{
+        height: 50px !important;
+    }
+    .top img{
+    width: 60px !important;
+    height: 60px !important;
+
+}
 }

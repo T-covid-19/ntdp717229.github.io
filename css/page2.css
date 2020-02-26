@@ -47,3 +47,9 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+@media screen and (max-width: 1200px) {
+    .main img{
+        width: 70vw;
+    }
+}

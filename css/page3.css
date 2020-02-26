@@ -131,3 +131,12 @@
 .main p span {
     font-weight: bold
 }
+@media screen and (max-width: 1200px) {
+.tnvrimg img {
+    height: 20vh; 
+    width: 80vw;
+
+}
+.main-3 img{
+    height: 30vh !important;
+}
