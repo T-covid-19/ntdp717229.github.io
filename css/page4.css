@@ -1,5 +1,5 @@
      body {
-         font-family: 微軟正黑體
+         font-family: 微軟正黑體;
      }
      
      .col-12 {
@@ -7,9 +7,9 @@
          padding: 5%;
      }
      
-     .領養須知 {
+     .領養須知 p {
          height: 100%;
-         font-size: 1.5em;
+         font-size: 2em;
          font-family: 微軟正黑體;
      }
      
@@ -19,7 +19,8 @@
      
      h1 {
          color: white;
-         font-weight: bold;
+         font-size: 4em !important;
+         font-weight:1500;
          font-family: 微軟正黑體;
      }
      
@@ -43,9 +44,9 @@
      
      .main-2 .a1 {
          float: right;
-         width: 50vw;
+         width: 40vw;
          height: 350px;
-         font-size: 1.2em;
+         font-size: 2em;
          padding: 0% 2%;
          background: #E9C8C8;
          margin: 10% 5% 0px 10%;
@@ -76,11 +77,11 @@
          left: 0px;
          margin: 0px auto;
          color: #000;
-         font-size: 2em;
      }
      
      .數據 p {
          padding: 2%;
+         font-size: 2em;
      }
      
      .灰字 {

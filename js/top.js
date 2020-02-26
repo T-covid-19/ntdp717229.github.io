@@ -1,3 +1,14 @@
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 4100) {
+        $('#handna').fadeOut("fast");
+    } else if ($(this).scrollTop() > 900) {
+        $('#handna').stop().fadeIn("fast");
+    } else {
+        $('#handna').stop().fadeOut("fast");
+    }
+});
+
+
 $(document).ready(function(){
     $("#goTop").click(function(event) {
         event.preventDefault();
