@@ -2,6 +2,9 @@
      .background {
          background-image: none !important;
      }
+     p img {
+          height: 40vh;
+     }
  }
  
  .background {
