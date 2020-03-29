@@ -1,8 +1,6 @@
-.main {
-    background: #8288F4;
-    margin-bottom: 5% !important;
+.content-1{
+    background: rgba(213, 211, 211, 0.8)
 }
-
 .dataol {
     list-style: none;
 }
@@ -12,16 +10,27 @@
 }
 
 .datali {
-    font-size: 25px;
-    line-height: 20px;
+    font-size: 2em;
+    line-height: 1em;
     color: #000;
-    padding: 20px;
-    margin: 20px;
+    padding: 5%;
+    
     font-family: 微軟正黑體;
 }
 
 .title {
     color: white;
-    font-size: 50px;
+    font-size: 2.3em;
     font-weight: bold;
+}
+.mmain{
+    margin-top: 10%;
+}
+@media screen and (max-width: 1200px){
+    .datali{
+        font-size: 20px !important;
+    }
+    .title{
+        font-size: 2em !important;
+    }
 }

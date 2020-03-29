@@ -1,6 +1,6 @@
 .main .a2 {
     display: inline-block;
-    font-family: "微軟正黑體";
+    font-family: "å¾®è»Ÿæ­£é»‘é«”";
     padding-left: 80px;
     height: 500px;
     vertical-align: top;
@@ -30,14 +30,14 @@ td {
     padding: 20px;
 }
 
-.介紹 li {
+.ä»‹ç´¹ li {
     color: #000;
     list-style-type: decimal;
-    font-size: 30px;
+    font-size: 2em;
     line-height: 50px;
 }
 
-.介紹 a {
+.ä»‹ç´¹ a {
     text-decoration: none;
 }
 
@@ -56,5 +56,28 @@ footer {
     line-height: 50px;
     color: rgba(45, 39, 39, 1.00);
     font-weight: bold;
-    font-family: "微軟正黑體";
+    font-family: "å¾®è»Ÿæ­£é»‘é«”";
+}
+     @media screen and (max-width: 1200px){
+nav{
+    height: 150px !important;
+    line-height:3000px !important;
+}
+.content{
+    margin-top: 180px;
+}
+nav li{
+    line-height: 150px !important;
+            font-size: 2em !important;
+
+}
+nav img{
+     display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+}
+.main-2 p{
+    font-size: 2em
+}
 }

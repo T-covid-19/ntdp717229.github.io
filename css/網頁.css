@@ -8,6 +8,16 @@ h1, h2, h3, h4, h5, h6 , p {
         font-family: 微軟正黑體 !important;
 
 }
+ .content {
+            margin: 150px 5% 50px 5%;
+            padding: 30px;
+        }
+        
+        .content-1 {
+            padding: 3%;
+            background: rgba(197, 208, 232, 0.8);
+        }
+
 
 .主圖框 {
     position: relative;

@@ -9,10 +9,49 @@
      
      .領養須知 p {
          height: 100%;
-         font-size: 2em;
+         font-size: 25px;
          font-family: 微軟正黑體;
      }
-     
+                    h1 {
+     padding: 0px;
+     font-size: 40px !important;
+     font-family: 微軟正黑體;
+     font-weight: 1000;
+margin: 0px auto;
+         writing-mode: horizontal-tb ; 
+
+       align-items: center;
+        justify-content: center;
+        text-orientation: upright;
+
+ }
+ .col-md-2 {
+    display: flex;
+         align-items: center;
+         width: 100%;
+         justify-content: center;
+         
+ }
+ .col-md-10{
+         align-items: center;
+         width: 100%;
+         justify-content: center;
+ }
+ @media screen and (min-width:768px ){
+    h1{
+             writing-mode: vertical-lr !important;
+
+    }
+ }
+ .text {
+     padding: 5%;
+     font-size: 25px;
+    font-family: 微軟正黑體;
+    font-weight: 300;
+ }
+ li{
+list-style-type:none;
+ }
      h1 {
          text-align: center;
      }
@@ -20,11 +59,11 @@
      h1 {
          color: white;
          font-size: 4em !important;
-         font-weight:1500;
+         font-weight: 1500;
          font-family: 微軟正黑體;
      }
      
-     .main-2 .a1 h2 {
+     .a1 h2 {
          border-bottom: 3px solid #000;
          width: 80%;
          font-weight: bold;
@@ -36,30 +75,34 @@
          text-align: justify;
      }
      
-     .main-2 .a1 h2 img {
+      .a1 h2 img {
          width: 120px;
          height: 80px;
          padding: 0px 2%;
      }
      
-     .main-2 .a1 {
+      .a1 {
          float: right;
-         width: 40vw;
          height: 350px;
-         font-size: 2em;
+         width: 100%;
+         font-size: 25px;
          padding: 0% 2%;
          background: #E9C8C8;
-         margin: 10% 5% 0px 10%;
+         margin: 10% 0px 0px 0px;
+         overflow-y: auto;
      }
      
-     .main-2 .a1 p {
+      .a1 p {
          padding: 3%;
          font-weight: bold;
          font-family: 微軟正黑體;
      }
      
-     .main {
-         background: #6996F0;
+     .content {
+         background: rgba(213, 211, 211, 0.8);
+     }
+     .content-1{
+        background: none !important;
      }
      
      .main-1 {
@@ -80,7 +123,7 @@
      }
      
      .數據 p {
-         padding: 2%;
+         padding: 0% 8%;
          font-size: 2em;
      }
      
@@ -88,4 +131,16 @@
          text-align: center;
          font-size: 0.5em;
          color: #2E2C2C
+     }
+     
+     @media screen and (max-width: 1200px) {
+         .main-2 {
+             border-bottom: 0px solid white !important;
+         }
+         .main-1 {
+             border-bottom: 0px solid white !important;
+         }
+         h1 {
+             font-size: 40px !important;
+         }
      }

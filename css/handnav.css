@@ -5,6 +5,7 @@
     margin: 0px 0px 0px 0px;
     padding-top: 130px;
     background: #fff;
+
 }
 
 .handul .handli div img {
@@ -13,7 +14,7 @@
     top: 0px;
     width: 200px;
     height: 130px;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .handul .handli div img:hover {
@@ -29,8 +30,8 @@
 
 .handnav {
     position: fixed;
-    left: 300px;
-    top: 130px;
+    left: 5%;
+    top: 20%;
     z-index: 10;
     display: none;
 }

@@ -4,19 +4,32 @@
 }
 
 .tnvrmain-1 {
-    background: #57BAF6;
+    background: #57BAF6;    padding: 5%;
+
+}
+.bd-2{
+        background: #99CDFF;
+
+}
+.content-1{
+    background: none;
+    padding: 0%;
 }
 
+
 .tnvrmain-2 {
-    background: #99CDFF;
+    background: #99CDFF;    padding: 5%;
+
 }
 
 .tnvrmain-3 {
-    background: #57BAF6;
+    background: #57BAF6;    padding: 5%;
+
 }
 
 .tnvrmain-4 {
-    background: #99CDFF;
+    background: #99CDFF;    padding: 5%;
+
 }
 
 .tnvrimg img {
@@ -72,7 +85,11 @@
 }
 
 .main-1 {
-    background: #429BC9
+    background: #429BC9;    padding: 5%;
+
+}
+.bd-1{
+    background: #429BC9; 
 }
 
 .main-3 {
@@ -123,7 +140,7 @@
 .main-3 p {
     font-family: 微軟正黑體;
     font-size: 2em;
-    padding: 1% 0%;
+    padding: 1% 5%;
     text-indent: 2em;
     line-height: 50px;
 }
@@ -131,12 +148,33 @@
 .main p span {
     font-weight: bold
 }
-@media screen and (max-width: 1200px) {
-.tnvrimg img {
-    height: 20vh; 
-    width: 80vw;
 
-}
-.main-3 img{
-    height: 30vh !important;
+@media screen and (max-width: 1200px) {
+    .tnvrimg img {
+        height: 20vh;
+        width: 80vw;
+    }
+    .main-3 img {
+        height: 30vh !important;
+    }
+    .petQ img {
+        height: 100px !important;
+        width: 100px !important;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .tnvrqdiv img {
+        height: 100px !important;
+        width: 100px !important;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .main p {
+        padding: 5%;
+    }
+    .灰字 {
+        text-indent: 0em !important;
+        font-size: 1.5em !important;
+        line-height: 1.5em !important;
+    }
 }
