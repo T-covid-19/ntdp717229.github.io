@@ -3,43 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <script src="js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <script src="js/loading.js"></script>
-    <script src="js/top.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
     <link rel="stylesheet" href="css/loading.css">
-    <link rel="stylesheet" type="text/css" href="css/page7.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/網頁.css">
     <link rel="stylesheet" type="text/css" href="css/rwd.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="css/page7.css">
 
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/w3.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>浪浪想要家</title>
     <style type="text/css">
-        .dataol {
-            list-style: none;
-        }
-        
-        .datali img {
-            width: 100px
-        }
-        
-        .datali {
-            font-size: 25px;
-            line-height: 20px;
-            color: #000;
-            padding: 20px;
-            margin: 20px;
-            font-family: 微軟正黑體;
-        }
-        
-        .title {
-            color: white;
-            font-size: 50px;
-            font-weight: bold;
-        }
+
     </style>
 
 </head>
@@ -54,8 +32,8 @@
 
     <nav class="nav">
         <ul class="ula">
-            <li class="lia">
-                <a href="index.html"><img src="img/1106.png"></a>
+            <li class="lia lia-1">
+                <a href="index.htm"><img src="img/1106.png"></a>
             </li>
             <li class="lia"><a href="page1.html">前言  </a>
 
@@ -72,12 +50,14 @@
             <li class="lia"><a href="page5.html">問卷</a></li>
             <li class="lia"><a href="page6.html">專題結論</a></li>
             <li class="lia"><a href="page7.html"><span>參考資料</span></a></li>
-            <li class="lia"><a href="narrative.html">專題簡報</a></li>
+            <li class="lia"><a href="narrative.htm">專題簡報</a></li>
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black button" id="aaaa">MENU</button>
 
         </ul>
     </nav>
-    <div class="main">
-        <div class="container">
+    <div class="content">
+
+        <div class="content-1" id="link1">
             <div class="row">
                 <ol class="dataol">
                     <li class="datali">
@@ -92,7 +72,7 @@
 
                     <li class="datali"> <img src="img/6.png">Pngimg &nbsp;http://pngimg.com/ </li>
                     <li class="datali"> <img src="img/6.png">Pexels &nbsp;https://www.pexels.com/zh-tw/ </li>
-
+                    <li class="datali"> <img src="img/6.png">动态图片基地 &nbsp;https://www.asqql.com/html_zuanti/</li>
                 </ol>
             </div>
         </div>
@@ -103,8 +83,62 @@
         <!--回首頁-->
 
     </div>
-    <footer>Chrome最佳瀏覽解析度1920*1080 │Copyright ©2019 </footer>
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-teal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">×</span>
+                <h2>浪浪想要家</h2>
+            </header>
+            <div class="w3-container w3-main">
+                <div>
+                    <a href="page1.html">
+                        <li>前言</li>
+                    </a>
+                </div>
+                <div>
+                    <a href="page2.html">
+                        <li>安樂死</li>
+                    </a>
+                </div>
+                <div>
+                    <a href="page3.html">
+                        <li>Tnvr</li>
+                    </a>
+                </div>
+                <div>
+                    <a href="page4.html">
+                        <li>領養</li>
+                    </a>
+                </div>
+                <div>
+                    <a href="page5.html">
+                        <li>問卷</li>
+                    </a>
+                </div>
+                <div>
+                    <a href="page6.html">
+                        <li>專題結論</li>
+                    </a>
+                </div>
+                <div>
+                    <a href="page7.html">
+                        <li>參考資料</li>
+                    </a>
+                </div>
+                <div>
+                    <a href="narrative.htm">
+                        <li>專題簡報</li>
+                    </a>
+                </div>
+            </div>
 
+        </div>
+    </div>
+    <footer> 最佳瀏覽器GooleChrome │ 最佳解析度1920*1080 │</footer>
 </body>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/loading.js"></script>
+<script src="js/top.js"></script>
+<script src="js/bootstrap.js"></script>
 
 </html>

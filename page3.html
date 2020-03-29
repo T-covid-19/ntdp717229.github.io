@@ -2,18 +2,18 @@
 <html>
 
 <head>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/loading.js"></script>
-    <script src="js/top.js"></script>
+    <meta charset="UTF-8">
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/loading.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/網頁.css">
     <link rel="stylesheet" type="text/css" href="css/rwd.css">
     <link rel="stylesheet" type="text/css" href="css/page3.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/w3.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>浪浪想要家</title>
     <style type="text/css">
@@ -25,16 +25,16 @@
 </head>
 
 <body>
-        <div class="loading-wrapper">
+    <div class="loading-wrapper">
         <div class="loading la-square-jelly-box la-2x"><img src="img/奔跑.gif">
             <div></div>
             <div></div>
         </div>
-    </div> 
+    </div>
     <nav class="nav">
         <ul class="ula">
-            <li class="lia">
-                <a href="index.html"><img src="img/1106.png"></a>
+            <li class="lia lia-1">
+                <a href="index.htm"><img src="img/1106.png"></a>
             </li>
             <li class="lia"><a href="page1.html">前言  </a>
 
@@ -45,10 +45,10 @@
             <li class="lia"><a href="page3.html"><span>Tnvr</span></a>
                 <ul class="ulb">
                     <li class="lib" id="p3g1">
-                        <a href="#">Tnvr介紹</a>
+                        <a href="#link1" class="turnToContent">Tnvr介紹</a>
                     </li>
                     <li class="lib" id="p3g2">
-                        <a href="#">Tnvr成效</a>
+                        <a href="#link2" class="turnToContent">Tnvr成效</a>
                     </li>
 
                 </ul>
@@ -57,20 +57,26 @@
             <li class="lia"><a href="page5.html">問卷</a></li>
             <li class="lia"><a href="page6.html">專題結論</a></li>
             <li class="lia"><a href="page7.html">參考資料</a></li>
-            <li class="lia"><a href="narrative.html">專題簡報</a></li>
+            <li class="lia"><a href="narrative.htm">專題簡報</a></li>
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black button" id="aaaa">MENU</button>
 
         </ul>
     </nav>
-    <div class="main">
-        <div class="container-fluid">
+    <div class="content">
+
+        <div class="content-1 bd-1" id="link1">
             <div class="row">
-                <div class="main-1">
+                <div class="main-1 " >
                     <h1>TNVR介紹</h1>
                     <p>
                         TNVR的主張就是讓那些和人類相處上沒有問題的浪犬、浪貓們可以繼續在原地生存。也是現在世界各國處理流浪貓狗問題採取的主要方法之一，用T（捕捉）N(結紮)V(接種疫苗)R(原地回置)讓那些出現在我們各個角落，與人共同生活的小傢伙們不會製造出太多麻煩，例如:貓狗四處繁衍後代、傳染狂犬病或是母貓叫春等等，施行完TNVR之後待牠們從手術復原後，再把牠們放回原來牠們熟悉，對牠們也能友善接納的區域。
 
                     </p>
                 </div>
+            </div>
+        </div>
+        <div class="content-1 bd-2" >
+            <div class="row">
                 <div class="main-2">
                     <div class="tnvrmain col-12  tnvrmain-1">
                         <div class="petQ">
@@ -84,8 +90,12 @@
                         <p class="tnvrtext">根據統計，每年至少有十萬隻的流浪貓狗會被捕捉進入公立的收容所裡，但礙於民間團體的人力和資源有限，通常會以能夠生育的母貓犬作為優先捕捉的對象。在實際捕捉的過程中，「誘捕籠」是最常使用的工具，只要在籠內外沿路放置食物，引誘貓狗進入籠內，當誘捕籠的機關被踩踏，籠子便會自動關起來。
                             <br> 若常常發現家中附近有街貓，且耳朵上沒有剪耳記號，可以協助TNVR，避免其繼續產下更多小貓，貓是夜行性動物，晚上比白天容易執行。但若發現貓咪脖子上有項圈，或是確認有植晶片，不要誤抓去結紮剪耳。
                         </p>
-                        <img src="img/a5.png" class="catQleft">
+                        <div class="tnvrqdiv"><img src="img/a5.png" class="catQleft"></div>
                     </div>
+                </div>
+            </div>
+            <div class="content-1 bd-3" >
+            <div class="row">
                     <div class="tnvrmain col-12 tnvrmain-2">
                         <div class="petQ">
                             <img src="img/a4.png">
@@ -112,9 +122,14 @@
                                 幫貓狗進行結紮手術，可以避免貓狗不小心懷孕的問題，每年都有成千上萬的貓狗出生，無法找到合適的認養主人
                             </p>
                         </div>
-                        <img src="img/a5.png" class="catQright">
-
+                        <div class="tnvrqdiv">
+                            <img src="img/a5.png" class="catQright">
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="content-1 bd-2" >
+            <div class="row">
                     <div class="tnvrmain  col-12  tnvrmain-3">
                         <div class="petQ">
                             <img src="img/a2.png">
@@ -125,9 +140,14 @@
                         </div>
 
                         <p class="tnvrtext">替浪犬、浪貓施打預防針，有很多流浪動物在外飽受疾病的痛苦，透過打針讓牠們不會生病，也不會傳染病菌，不但能在保護動物，也能讓環境的安全上能夠更家完善。</p>
-                        <img src="img/a5.png" class="catQleft">
+                        <div class="tnvrqdiv"><img src="img/a5.png" class="catQleft">
+                        </div>
 
                     </div>
+                </div>
+            </div>
+            <div class="content-1 bd-2" id="link1">
+            <div class="row">
                     <div class="tnvrmain col-12  tnvrmain-4">
                         <div class="petQ">
                             <img src="img/a1.png">
@@ -141,13 +161,17 @@
 
                     </div>
                 </div>
-                <div class="main-3">
+            </div>
+        </div>
+        <div class="content-1 bd-1" id="link2">
+            <div class="row">
+                <div class="main-3" >
                     <h1>TNVR成效</h1>
 
                     <h1><img src="img/b12.png" width="100%" height="100%">
                     </h1>
                     <p class="灰字">
-                        數據來源：動物保護資訊網 圖表製作：團隊自己製作
+                        數據來源：動物保護資訊網 圖表製作：團隊自行製作
                     </p>
                     <p>
                         從全國數據來看，從104年開始實施收容所的隻數呈現明顯減少趨勢，但其實在都市以及城鄉上，卻有差異的不同的結果產生。</p>
@@ -165,14 +189,71 @@
             </div>
         </div>
     </div>
+    
 
-    <div class="top">
+        <div class="top">
 
-        <a href="#" id="goTop"><img src="img/top.png"></a>
-        <!--回首頁-->
+            <a href="#" id="goTop"><img src="img/top.png"></a>
+            <!--回首頁-->
 
+        </div>
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+                <header class="w3-container w3-teal">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">×</span>
+                    <h2>浪浪想要家</h2>
+                </header>
+                <div class="w3-container w3-main">
+                    <div>
+                        <a href="page1.html">
+                            <li>前言</li>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="page2.html">
+                            <li>安樂死</li>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="page3.html">
+                            <li>Tnvr</li>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="page4.html">
+                            <li>領養</li>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="page5.html">
+                            <li>問卷</li>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="page6.html">
+                            <li>專題結論</li>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="page7.html">
+                            <li>參考資料</li>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="narrative.htm">
+                            <li>專題簡報</li>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
-    <footer>Chrome最佳瀏覽解析度1920*1080 │Copyright ©2019 </footer>
+    <footer> 最佳瀏覽器GooleChrome │ 最佳解析度1920*1080 │</footer>
 </body>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/loading.js"></script>
+<script src="js/top.js"></script>
+<script src="js/bootstrap.js"></script>
 
 </html>
