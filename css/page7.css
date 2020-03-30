@@ -28,9 +28,12 @@
 }
 @media screen and (max-width: 1200px){
     .datali{
-        font-size: 20px !important;
+        font-size:15px !important;
     }
     .title{
         font-size: 2em !important;
     }
+    .datali img {
+    width: 60px
+}
 }

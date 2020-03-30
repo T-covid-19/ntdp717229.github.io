@@ -1,3 +1,18 @@
+ @media screen and (max-width: 1200px) {
+       p {
+         font-size: 25px ;
+     }
+     h1{
+        font-size: 40px !important;
+     }
+ }
+ h1{
+    font-size: 50px;
+ }
+ p{
+    font-size: 30px;
+ }
+
 .tnvrmain {
     margin: 0px auto;
     padding: 10% 0px !important;
@@ -51,7 +66,7 @@
 
 .petQ p {
     color: #000;
-    font-size: 3em;
+    font-size: 40px;
     font-family: 微軟正黑體;
     font-weight: bold;
     text-align: center;
@@ -60,24 +75,23 @@
 .tnvrtext {
     padding: 5%;
     margin: 0px auto;
-    font-size: 2em;
+    font-size: 30px;
     font-family: 微軟正黑體;
     text-align: justify;
-    line-height: 2em;
 }
 
 .catQright {
     position: absolute;
     bottom: -50px;
     right: 12px;
-    z-index: 5
+    z-index: 2
 }
 
 .catQleft {
     position: absolute;
     bottom: -50px;
     left: 12px;
-    z-index: 5
+    z-index: 2
 }
 
 .container-fluid {
@@ -85,7 +99,7 @@
 }
 
 .main-1 {
-    background: #429BC9;    padding: 5%;
+    background: #afd2e4;    padding: 5%;
 
 }
 .bd-1{
@@ -93,7 +107,7 @@
 }
 
 .main-3 {
-    background: #429BC9;
+    background: #afd2e4;
     padding: 5%;
 }
 
@@ -101,14 +115,12 @@
     text-align: center;
     padding-top: 5%;
     font-weight: bold;
-    color: white;
-    font-size: 4em;
+    color: #000;
 }
 
 .main-1 p {
-    font-size: 2em;
     padding: 5%;
-    color: white;
+    color: #000;
 }
 
 .tnvrpimg {
@@ -126,20 +138,18 @@
 }
 
 .main-3 h1 {
-    font-size: 4em;
     text-align: center;
     padding-top: 5%;
 }
 
 .灰字 {
     text-align: center;
-    font-size: 0.5em;
+    font-size: 25px;
     color: #2E2C2C
 }
 
 .main-3 p {
     font-family: 微軟正黑體;
-    font-size: 2em;
     padding: 1% 5%;
     text-indent: 2em;
     line-height: 50px;
@@ -172,9 +182,20 @@
     .main p {
         padding: 5%;
     }
-    .灰字 {
-        text-indent: 0em !important;
-        font-size: 1.5em !important;
-        line-height: 1.5em !important;
+    .灰字{
+        font-size: 20px;
     }
+    .petQ p {
+    font-size: 30px;
+
+}
+.tnvrtext {
+ 
+    font-size: 25px;
+   
+}
+p{
+    font-size: 25px;
+}
+ 
 }
